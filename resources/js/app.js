@@ -1,11 +1,11 @@
 require('./bootstrap');
 
-window.addEventListener('DOMContentLoaded', function(e){
+window.addEventListener('DOMContentLoaded', function(event){
     let deleteButtons = document.querySelectorAll('.delete-quiz');
 
     deleteButtons.forEach( deleteButton => {
         //ボタンにクリックイベントを追加
-        deleteButton.addEventListener('click', function(e){
+        deleteButton.addEventListener('click', function(event){
             let quizId = this.dataset.id;
 
             //削除前の確認を表示
