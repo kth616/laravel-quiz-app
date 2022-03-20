@@ -19391,11 +19391,11 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-window.addEventListener('DOMContentLoaded', function (e) {
+window.addEventListener('DOMContentLoaded', function (event) {
   var deleteButtons = document.querySelectorAll('.delete-quiz');
   deleteButtons.forEach(function (deleteButton) {
     //ボタンにクリックイベントを追加
-    deleteButton.addEventListener('click', function (e) {
+    deleteButton.addEventListener('click', function (event) {
       var quizId = this.dataset.id; //削除前の確認を表示
 
       if (!confirm('id:' + quizId + 'のQuizを削除します\nよろしいですか？')) {
