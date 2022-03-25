@@ -13,8 +13,8 @@ use App\Http\Controllers\QuizController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/layouts', function () {
+    return view('base');
 });
 
 Route::resource('quizzes', QuizController::class);
