@@ -36,4 +36,5 @@ class CreateQuizzesTable extends Migration
     {
         Schema::dropIfExists('quizzes');
     }
+
 }
