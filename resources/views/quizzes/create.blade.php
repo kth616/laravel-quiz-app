@@ -2,6 +2,7 @@
 @section('title', 'Quiz 管理 - 問題の追加')
 
 @section('content')
+
   <h1>Quiz 管理 - 問題の追加</h1>
   @if ($errors->any())
     <div class="alert alert-danger">
@@ -72,4 +73,5 @@
       <a href="{{ route('quizzes.index') }}" type="button" class="btn btn-link">戻る</a>
     </div>
   </form>
+  
 @endsection

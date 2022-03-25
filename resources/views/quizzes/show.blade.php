@@ -2,6 +2,7 @@
 @section('title', 'Quiz 管理 - 問題の内容')
 
 @section('content')
+
   <h1>Quiz 管理 - 問題の内容</h1>
   @if (empty($quiz))
   <div class="col mt-3 mb-5">
@@ -39,4 +40,5 @@
     <a href="{{ route('quizzes.index') }}" type="button" class="btn btn-link">一覧に戻る</a>
   </div>
   @endif
+
 @endsection

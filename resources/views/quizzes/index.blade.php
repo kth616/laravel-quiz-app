@@ -2,6 +2,7 @@
 @section('title', 'Quiz 管理')
 
 @section('content')
+
   <h1>Quiz 管理</h1>
   <div class="row mt-5 mb-3">
     <div class="col text-right">
@@ -28,4 +29,5 @@
       </tbody>
     </table>
   </div>
+  
 @endsection
